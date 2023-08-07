@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Tip Calculator</title>
 </head>
 <body>
-    <label for="bill">Bill</label>
-    <input type="number" id="bill" placeholder="100">
-    <label for="tipPercentage">Tip (%)</label>
-    <input type="number" id="tipPercentage">
-    <button id="calculateBtn">Calculate</button>
-  <div id="totalContainer">
+  <div class="container">
+    <h1>Tip Calculator</h1>
+      <label for="bill">Bill</label>
+      <input type="number" id="bill" placeholder="100">
+      <label for="tipPercentage">Tip (%)</label>
+      <input type="number" id="tipPercentage">
+     <button id="calculateBtn">Calculate</button>
+    <div id="totalContainer">
     Total Bill (including tip): <span id="totalAmount"></span><br>
     Total Tip: <span id="tipAmount"></span>
+  </div>
   </div>
   <script src="script.js"></script>
 </body>
